@@ -1,0 +1,22 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  width: 150px;
+}
+
+input {
+  /* Bottom border color */
+  padding: 0.2rem;
+  font-size: 1rem;
+  outline: none;
+  width: 250px;
+}
+
+input:focus {
+  border-bottom: 2px solid #0056b3; /* Bottom border color on focus */
+}
